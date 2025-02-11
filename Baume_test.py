@@ -5,12 +5,7 @@ from arcgis.gis import GIS
 import os
 import datetime
 from pathlib import Path
-from dotenv import load_dotenv
-#from config import user, password
-
-load_dotenv()
-user = os.getenv('user')
-password = os.getenv('password')
+from config import user, password
 
 # User login info
 gis = GIS('https://usys-ethz.maps.arcgis.com', user, password)
