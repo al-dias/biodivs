@@ -1,3 +1,4 @@
 pandas==2.2.2
 pyproj==3.6.1
-arcgis==2.2.0.3 
+arcgis==2.2.0.3
+python==3.9
